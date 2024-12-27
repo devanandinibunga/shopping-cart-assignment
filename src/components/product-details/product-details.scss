@@ -1,0 +1,15 @@
+.modal-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  img {
+    height: 12rem;
+    width: 60%;
+    align-self: center;
+    border-radius: 1rem;
+  }
+  p {
+    font-size: 1.2rem;
+    padding: 0 1rem;
+  }
+}

@@ -1,0 +1,36 @@
+.navbar > .container-fluid {
+  justify-content: space-around;
+  padding: 0 2rem;
+  background-color: #f8f9fa;
+  .commerce-text {
+    font-size: 2rem;
+    font-weight: 600;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  @media (max-width: 768px) {
+    justify-content: end;
+  }
+}
+
+.btn {
+  position: relative;
+}
+
+.icon {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.badge {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background-color: red;
+  color: white;
+  font-size: 0.9rem;
+  padding: 2px 6px;
+  border-radius: 50%;
+  text-align: center;
+}
